@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<head>
+<body>
+    <html>
+    <head>
+        <style>
+            #navbar ul{
+    display: flex;
+    font-family: 'Playfair Display', serif;
+}
+
+#navbar ul li{ 
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+            body {
+                font-family: Arial, sans-serif;
+            }
+            .container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                margin: 0 auto;
+                max-width: 800px;
+            }
+            select {
+                flex-basis: 48%;
+                margin-bottom: 10px;
+            }
+            label {
+                display: block;
+                margin-bottom: 5px;
+            }
+            .footer {
+                background-color: #4d4d4d;
+                padding: 10px;
+                text-align: center;
+            }
+            .social-links a {
+                margin-right: 10px;
+            }
+            @media screen and (max-width: 768px) {
+
+                input,
+                select {
+                    flex-basis: 100%;
+                }
+            }
+        </style>
+
+    </head>
+    <header>
+        <nav id="navbar">
+            <div id="logo">
+                <img src="ai-generated-8325206_1280.png" alt="FEDKIIT">
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Sign-in</a></li>
+            </ul>
+        </nav>
+    </header>
+    <body>
+        <div class="container">
+            <div> <label for="name">Name</label> <input type="text" id="name" placeholder="Type here"> </div>
+            <div> <label for="mobile">Mobile Number</label> <input type="text" id="mobile" placeholder="Typing"> </div>
+            <div> <label for="email">Personal Email-id</label> <input type="email" id="email" placeholder="Typing">
+            </div>
+            <div> <label for="roll">Roll Number</label> <input type="text" id="roll" placeholder="Typing">
+                <div class="error"></div>
+            </div>
+            <div> <label for="details">Personal Details</label> <textarea id="details" placeholder="Typing"></textarea>
+            </div>
+            <div> <label for="home">Home</label> <select id="home">
+                    <option value="">Li</option>
+                    <option value="">Dropdown option</option>
+                </select> </div>
+            <div> <label for="branch">Branch</label> <select id="branch">
+                    <option value="cse">Cse</option>
+                    <option value="me">Mechanical Engineering</option>
+                    <option value="ee">Electrical Engineering</option>
+                </select> </div>
+        </div>
+        <div class="container">
+            <div> <label for="about">About Service</label> <button id="view">View</button> </div>
+            <div> <label for="contact">Contact Us</label> <button id="contact">Contact Us</button> </div>
+            <div> <label for="username">Username</label> <input type="text" id="username" placeholder="Type here">
+            </div>
+        </div>
+        <div class="footer">
+            <p>Copyright@kiit</p>
+            <div class="social-links"> <a href="https://www.facebook.com/">F</a>
+                    href="https://www.instagram.com/">Ig</a> <a href="https://twitter.com/">Tw</a> </div> <button
+                id="save">SAVE</button>
+        </div>
+        <script>  </script>
+    </body>
+
+    </html>
